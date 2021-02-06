@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">@color/blue</color>
+
+    <!-- grayscale -->
+    <color name="black">#000000</color>
+    <color name="midGrey">#B5B5B5</color>
+    <color name="white">#ffffff</color>
+    <color name="dashGrey">#BCBCBC</color>
+    <color name="whiteSmoke">#F2F2F2</color>
+    <color name="transparentWhite">#99ffffff</color>
+    <color name="transparentGrey">#66ffffff</color>
+    <color name="lightGrey">#ebebeb</color>
+    <color name="darkGrey">#b2b2b2</color>
+    <color name="lightBlack">#8a000000</color>
+    <color name="blackOverlay33">#33000000</color>
+    <color name="whiteOverlay">#ccffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- colors -->
+    <color name="darkYellow">#f7b106</color>
+    <color name="peach">#ff986c</color>
+    <color name="brick">#e56953</color>
+    <color name="fushia">#d361a6</color>
+    <color name="purple">#5b497f</color>
+    <color name="pink">#f3c4ba</color>
+    <color name="paleYellow">#f8dc5c</color>
+    <color name="blue">#0046fe</color>
+    <color name="prussianBlue">#002C52</color>
+    <color name="transparentPrussianBlue">#cc002c52</color>
+    <color name="lightPrussianBlue">#668097</color>
+    <color name="orange">#ff5c35</color>
+    <color name="darkRed">#b00020</color>
+    <color name="hawkBlue">#d6dade</color>
+    <color name="paleBlue">#91a9e6</color>
+    <color name="navyGrey">#8FA0AF</color>
+    <color name="green">#3cb079</color>
+    <color name="dark_cyan_blue">#002956</color>
+    <color name="light_cyan_blue">#002a55</color>
+    <color name="gullGray">#95A7B6</color>
+
+    <!-- Specific -->
+    <color name="viewDividerColor">@color/hawkBlue</color>
+    <color name="inactiveDotGrey">#b2bfca</color>
+    <color name="delayColorDark">#CC492A</color>
+    <color name="delayColorLight">#FF9D85</color>
+    <color name="selectedViewColor">#b3c7fe</color>
+    <color name="lightCegidBlue">#6691fe</color>
+    <color name="sunColorBlue">#B2C8FE</color>
+    <color name="greetingBackgroundBlue">#6690FF</color>
+    <color name="greetingBackgroundDarkBlue">#002A98</color>
 </resources>

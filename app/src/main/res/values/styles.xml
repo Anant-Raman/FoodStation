@@ -1,0 +1,371 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--    SwitchCompat theme-->
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb color-->
+        <item name="colorControlActivated">#0046fe</item>
+    </style>
+
+
+    <!-- Gelion Regular -->
+    <style name="GelionRegularFont" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/gelion_regular</item>
+    </style>
+
+    <style name="GelionRegularItalic" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/gelion_regular_italic</item>
+    </style>
+
+    <style name="GelionRegular22" parent="GelionRegularFont">
+        <item name="android:textSize">@dimen/csp_22</item>
+    </style>
+
+    <style name="GelionRegular20" parent="GelionRegularFont">
+        <item name="android:textSize">@dimen/csp_20</item>
+    </style>
+
+    <style name="GelionRegularItalic22" parent="GelionRegularItalic">
+        <item name="android:textSize">@dimen/csp_22</item>
+    </style>
+
+    <style name="GelionRegularNavyBlue22" parent="GelionRegular22">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="GelionRegularOrange22" parent="GelionRegular22">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="GelionRegularItalicNavyBlue22" parent="GelionRegularItalic22">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="GelionRegularLightCyanBlue22" parent="GelionRegular22">
+        <item name="android:textColor">@color/light_cyan_blue</item>
+    </style>
+
+    <style name="GelionRegularBlue22" parent="GelionRegular22">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="GelionRegularLightPrussianBlue22" parent="GelionRegular22">
+        <item name="android:textColor">@color/lightPrussianBlue</item>
+    </style>
+
+    <style name="GelionRegularGullGray22" parent="GelionRegular22">
+        <item name="android:textColor">@color/gullGray</item>
+    </style>
+
+    <style name="GelionRegularNavyBlue20" parent="GelionRegular20">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <!-- Gelion Medium -->
+    <style name="GelionMedium" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/gelion_medium</item>
+    </style>
+
+    <style name="GelionMedium22" parent="GelionMedium">
+        <item name="android:textSize">@dimen/csp_22</item>
+    </style>
+
+    <style name="GelionMedium20" parent="GelionMedium">
+        <item name="android:textSize">@dimen/csp_20</item>
+    </style>
+
+    <style name="GelionMedium24" parent="GelionMedium">
+        <item name="android:textSize">@dimen/csp_24</item>
+    </style>
+
+    <style name="GelionMediumWhite22" parent="GelionMedium22">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="GelionMediumWhite20" parent="GelionMedium20">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GelionMediumWhiteOverlay22" parent="GelionMedium22">
+        <item name="android:textColor">@color/whiteOverlay</item>
+    </style>
+
+    <style name="GelionMediumOrange20" parent="GelionMedium20">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="GelionMediumOrange22" parent="GelionMedium22">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="GelionMediumPrussianBlue22" parent="GelionMedium22">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="GelionMediumPrussianBlue20" parent="GelionMedium20">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="GelionMediumGreen22" parent="GelionMedium22">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="GelionMediumGreen" parent="GelionMedium">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="GelionMediumBlue20" parent="GelionMedium20">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="GelionMediumBlue22" parent="GelionMedium22">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="GelionMediumBlue24" parent="GelionMedium24">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="GelionMediumPrussianBlue24" parent="GelionMedium24">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="GelionMediumTransparentPrussianBlue24" parent="GelionMedium24">
+        <item name="android:textColor">@color/transparentPrussianBlue</item>
+    </style>
+
+    <style name="GelionMediumWhite24" parent="GelionMedium24">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!-- Gelion SemiBold -->
+    <style name="GelionSemiBold" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/gelion_semi_bold</item>
+    </style>
+
+    <style name="GelionSemiBold30" parent="GelionSemiBold">
+        <item name="android:textSize">@dimen/csp_30</item>
+    </style>
+
+    <style name="GelionSemiBold32" parent="GelionSemiBold">
+        <item name="android:textSize">@dimen/csp_32</item>
+    </style>
+
+    <style name="GelionSemiBold34" parent="GelionSemiBold">
+        <item name="android:textSize">@dimen/csp_34</item>
+    </style>
+
+    <style name="GelionSemiBoldWhite30" parent="GelionSemiBold30">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GelionSemiBoldWhite32" parent="GelionSemiBold32">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GelionSemiBoldWhite34" parent="GelionSemiBold34">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GelionSemiBoldNavyBlue34" parent="GelionSemiBold34">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="GelionSemiBoldOrange34" parent="GelionSemiBold34">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="GelionSemiBoldDeepCyanBlue34" parent="GelionSemiBold34">
+        <item name="android:textColor">@color/dark_cyan_blue</item>
+    </style>
+
+    <style name="GelionSemiBoldBlue30" parent="GelionSemiBold30">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <!-- Roboto Regular -->
+    <style name="RobotoRegular" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="RobotoRegular16" parent="RobotoRegular">
+        <item name="android:textSize">@dimen/csp_16</item>
+    </style>
+
+    <style name="RobotoRegular17" parent="RobotoRegular">
+        <item name="android:textSize">@dimen/csp_17</item>
+    </style>
+
+    <style name="RobotoRegular18" parent="RobotoRegular">
+        <item name="android:textSize">@dimen/csp_18</item>
+    </style>
+
+    <style name="RobotoRegularLightBlack18" parent="RobotoRegular18">
+        <item name="android:textColor">@color/lightBlack</item>
+    </style>
+
+    <style name="RobotoRegularPrussianBlue18" parent="RobotoRegular18">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="RobotoRegularWhite16" parent="RobotoRegular16">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RobotoRegularBlue16" parent="RobotoRegular16">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="RobotoRegularPrussianBlue17" parent="RobotoRegular17">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="RobotoRegularWhite17" parent="RobotoRegular17">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RobotoRegularWhite18" parent="RobotoRegular18">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Roboto Medium -->
+    <style name="RobotoMedium" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="RobotoMedium14" parent="RobotoMedium">
+        <item name="android:textSize">@dimen/csp_14</item>
+    </style>
+
+    <style name="RobotoMedium16" parent="RobotoMedium">
+        <item name="android:textSize">@dimen/csp_16</item>
+    </style>
+
+    <style name="RobotoMedium17" parent="RobotoMedium">
+        <item name="android:textSize">@dimen/csp_17</item>
+    </style>
+
+    <style name="RobotoMedium12" parent="RobotoMedium">
+        <item name="android:textSize">@dimen/csp_12</item>
+    </style>
+
+    <style name="RobotoMediumLightPrussianBlue14" parent="RobotoMedium14">
+        <item name="android:textColor">@color/lightPrussianBlue</item>
+    </style>
+
+    <style name="RobotoMediumWhite14" parent="RobotoMedium14">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RobotoMediumWhite16" parent="RobotoMedium16">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RobotoMediumWhite12" parent="RobotoMedium12">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RobotoMediumBlack17" parent="RobotoMedium17">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="RobotoMediumPrussianBlue17" parent="RobotoMedium17">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="RobotoMediumPrussianBlue14" parent="RobotoMedium14">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="RobotoMediumPrussianBlue" parent="RobotoMedium">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="RobotoMediumPrussianBlue12" parent="RobotoMediumPrussianBlue">
+        <item name="android:textSize">@dimen/cdp_12</item>
+    </style>
+
+    <!-- Roboto Italic -->
+    <style name="RobotoItalic" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/roboto_italic</item>
+    </style>
+
+    <style name="RobotoItalic14" parent="RobotoItalic">
+        <item name="android:textSize">@dimen/csp_14</item>
+    </style>
+
+    <style name="RobotoItalicPrussianBlue14" parent="RobotoItalic14">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <!-- Roboto Bold -->
+    <style name="RobotoBold" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="RobotoBold18" parent="RobotoBold">
+        <item name="android:textSize">@dimen/csp_18</item>
+    </style>
+
+    <style name="RobotoBold32" parent="RobotoBold">
+        <item name="android:textSize">@dimen/csp_32</item>
+    </style>
+
+    <style name="RobotoBoldWhite18" parent="RobotoBold18">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RobotoBoldWhite32" parent="RobotoBold32">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RobotoBoldNavyBlue18" parent="RobotoBold18">
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <style name="RobotoBoldBlack18" parent="RobotoBold18">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="EditTextStyle" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/gullGray</item>
+        <item name="fontFamily">@font/gelion_regular</item>
+        <item name="android:textSize">@dimen/csp_22</item>
+        <item name="android:textColor">@color/prussianBlue</item>
+    </style>
+
+    <!-- Full Screen Dialogs -->
+    <style name="FullScreenDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:padding">0dp</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/lightGrey</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:statusBarColor">@color/blackOverlay33</item>
+    </style>
+
+    <style name="FullScreenDialogStatusBarGrey" parent="FullScreenDialog">
+        <item name="android:windowBackground">@color/lightGrey</item>
+        <item name="android:statusBarColor">@color/lightGrey</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="TransparentFullScreenDialog" parent="FullScreenDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+<!--    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">-->
+<!--        <item name="android:windowBackground">@drawable/round_corner_16dp</item>-->
+<!--    </style>-->
+
+</resources>

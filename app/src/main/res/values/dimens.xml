@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Profile Layout Dimensions-->
+    <dimen name="profile_email_label_margin_top">18dp</dimen>
+    <dimen name="profile_view_margin_top">43dp</dimen>
+    <dimen name="profile_touchId_label_margin_top">88dp</dimen>
+    <dimen name="profile_line_margin_top">12dp</dimen>
+    <dimen name="profile_termsandcondition_top_margin">22dp</dimen>
+    <dimen name="profile_line3_marginTop">12dp</dimen>
+    <dimen name="profile_poweredByCegid_marginTop">50dp</dimen>
+    <dimen name="profile_footer_top_margin">60dp</dimen>
+    <dimen name="profile_horizontal_page_margin_16dp">16dp</dimen>
+    <dimen name="profile_line_height_1dp">1dp</dimen>
+
+    <dimen name="csp_17">17sp</dimen>
+    <dimen name="csp_24">24sp</dimen>
+
+    <dimen name="cdp_1">1dp</dimen>
+    <dimen name="cdp_2">2dp</dimen>
+    <dimen name="cdp_3">3dp</dimen>
+    <dimen name="cdp_4">4dp</dimen>
+    <dimen name="cdp_5">5dp</dimen>
+    <dimen name="cdp_6">6dp</dimen>
+    <dimen name="cdp_8">8dp</dimen>
+    <dimen name="cdp_10">10dp</dimen>
+    <dimen name="cdp_11">11dp</dimen>
+    <dimen name="cdp_12">12dp</dimen>
+    <dimen name="cdp_13">13dp</dimen>
+    <dimen name="cdp_14">14dp</dimen>
+    <dimen name="cdp_15">15dp</dimen>
+    <dimen name="cdp_16">16dp</dimen>
+    <dimen name="cdp_18">18dp</dimen>
+    <dimen name="cdp_19">19dp</dimen>
+    <dimen name="cdp_20">20dp</dimen>
+    <dimen name="cdp_21">21dp</dimen>
+    <dimen name="cdp_22">22dp</dimen>
+    <dimen name="cdp_24">24dp</dimen>
+    <dimen name="cdp_25">25dp</dimen>
+    <dimen name="cdp_26">26dp</dimen>
+    <dimen name="cdp_27">27dp</dimen>
+    <dimen name="cdp_28">28dp</dimen>
+    <dimen name="cdp_30">30dp</dimen>
+    <dimen name="cdp_31">31dp</dimen>
+    <dimen name="cdp_32">32dp</dimen>
+    <dimen name="cdp_35">35dp</dimen>
+    <dimen name="cdp_36">36dp</dimen>
+    <dimen name="cdp_39">39dp</dimen>
+    <dimen name="cdp_40">40dp</dimen>
+    <dimen name="cdp_41">41dp</dimen>
+    <dimen name="cdp_42">42dp</dimen>
+    <dimen name="cdp_44">44dp</dimen>
+    <dimen name="cdp_46">46dp</dimen>
+    <dimen name="cdp_45">45dp</dimen>
+    <dimen name="cdp_48">48dp</dimen>
+    <dimen name="cdp_50">50dp</dimen>
+    <dimen name="cdp_53">53dp</dimen>
+    <dimen name="cdp_54">54dp</dimen>
+    <dimen name="cdp_55">55dp</dimen>
+    <dimen name="cdp_56">56dp</dimen>
+    <dimen name="cdp_58">58dp</dimen>
+    <dimen name="cdp_59">59dp</dimen>
+    <dimen name="cdp_60">60dp</dimen>
+    <dimen name="cdp_62">62dp</dimen>
+    <dimen name="cdp_64">64dp</dimen>
+    <dimen name="cdp_68">68dp</dimen>
+    <dimen name="cdp_70">70dp</dimen>
+    <dimen name="cdp_72">72dp</dimen>
+    <dimen name="cdp_74">74dp</dimen>
+    <dimen name="cdp_80">80dp</dimen>
+    <dimen name="cdp_88">88dp</dimen>
+    <dimen name="cdp_92">92dp</dimen>
+    <dimen name="cdp_96">96dp</dimen>
+    <dimen name="cdp_106">106dp</dimen>
+    <dimen name="cdp_110">110dp</dimen>
+    <dimen name="cdp_120">120dp</dimen>
+    <dimen name="cdp_124">124dp</dimen>
+    <dimen name="cdp_130">130dp</dimen>
+    <dimen name="cdp_140">140dp</dimen>
+    <dimen name="cdp_144">144dp</dimen>
+    <dimen name="cdp_160">160dp</dimen>
+    <dimen name="cdp_180">180dp</dimen>
+    <dimen name="cdp_185">185dp</dimen>
+    <dimen name="cdp_200">200dp</dimen>
+    <dimen name="cdp_240">240dp</dimen>
+    <dimen name="cdp_260">260dp</dimen>
+    <dimen name="cdp_265">265dp</dimen>
+    <dimen name="cdp_290">290dp</dimen>
+    <dimen name="cdp_300">300dp</dimen>
+    <dimen name="cdp_318">318dp</dimen>
+    <dimen name="cdp_332">332dp</dimen>
+    <dimen name="cdp_360">360dp</dimen>
+    <dimen name="cdp_390">390dp</dimen>
+    <dimen name="cdp_420">420dp</dimen>
+    <dimen name="cdp_450">450dp</dimen>
+
+    <dimen name="csp_minus2">-2sp</dimen>
+    <dimen name="csp_2">2sp</dimen>
+    <dimen name="csp_3">3sp</dimen>
+    <dimen name="csp_10">10sp</dimen>
+    <dimen name="csp_14">14sp</dimen>
+    <dimen name="csp_12">12sp</dimen>
+    <dimen name="csp_16">16sp</dimen>
+    <dimen name="csp_20">20sp</dimen>
+    <dimen name="csp_22">22sp</dimen>
+    <dimen name="csp_25">25sp</dimen>
+    <dimen name="csp_32">32sp</dimen>
+    <dimen name="csp_34">34sp</dimen>
+    <dimen name="csp_18">18sp</dimen>
+    <dimen name="csp_26">26sp</dimen>
+    <dimen name="csp_28">28sp</dimen>
+    <dimen name="csp_30">30sp</dimen>
+
+    <dimen name="warning_icon_size">20dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="bottom_nav_height">@dimen/cdp_70</dimen>
+    <dimen name="bottom_nav_image_margin">@dimen/cdp_12</dimen>
+    <dimen name="bottom_nav_text_margin">@dimen/cdp_10</dimen>
+    <dimen name="toolbar_max_height">158dp</dimen>
+    <dimen name="toolbar_min_height">88dp</dimen>
+
+    <dimen name="document_detail_toolbar_max_height">@dimen/cdp_420</dimen>
+    <dimen name="document_detail_toolbar_min_height">@dimen/cdp_88</dimen>
+    <dimen name="document_detail_component_margin">@dimen/cdp_10</dimen>
+
+    <dimen name="bankline_detail_toolbar_max_height">@dimen/cdp_390</dimen>
+    <dimen name="bankline_detail_toolbar_min_height">@dimen/cdp_62</dimen>
+
+    <dimen name="analyse_min_toolbar">@dimen/cdp_50</dimen>
+
+    <dimen name="reconciliation_toolbar_max_height">@dimen/cdp_185</dimen>
+    <dimen name="reconciliation_toolbar_min_height">@dimen/cdp_54</dimen>
+    <dimen name="home_margin">@dimen/cdp_18</dimen>
+
+    <dimen name="document_preview_error_min_toolbar">@dimen/cdp_50</dimen>
+    <dimen name="button_not_now_bottom_margin">@dimen/cdp_30</dimen>
+
+</resources>
